@@ -349,7 +349,7 @@ background-color: black;
 }
 .SkillContainer{
 	margin: -1vh 4vw;
-    height: 76.4vh;
+    height: 150vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -379,17 +379,59 @@ text-align: center;
 	height: 20px;
 	border-radius: 8px; 
 	margin-left: -1px;
-	background-color: #ff2222; 
+	background-color: #830404; 
 }
 .skCss{
 	width: 24vw; 
 	height: 20px;
 	border-radius: 8px; 
 	margin-left: -1px;
-	background-color: #ff8900; 
+	background-color: #830404; 
 }
 .skJs{
-	width: 14vw; 
+	width: 18vw; 
+	height: 20px;
+	border-radius: 8px; 
+	margin-left: -1px;
+	background-color: #d78408 ;
+}
+.skJQ{
+	width: 20vw; 
+	height: 20px;
+	border-radius: 8px; 
+	margin-left: -1px;
+	background-color: #f80000;
+}
+.skNJS{
+	width: 21vw; 
+	height: 20px;
+	border-radius: 8px; 
+	margin-left: -1px;
+	background-color: #f80000;
+}
+.skExp{
+	width: 22vw; 
+	height: 20px;
+	border-radius: 8px; 
+	margin-left: -1px;
+	background-color: #ff2270;
+}
+.skRt{
+	width: 18vw; 
+	height: 20px;
+	border-radius: 8px; 
+	margin-left: -1px;
+	background-color: #ffef00;
+}
+.skMDB{
+	width: 20vw; 
+	height: 20px;
+	border-radius: 8px; 
+	margin-left: -1px;
+	background-color:#d78408;
+}
+.skMyS{
+		width: 10vw; 
 	height: 20px;
 	border-radius: 8px; 
 	margin-left: -1px;
@@ -400,47 +442,61 @@ text-align: center;
 	height: 20px;
 	border-radius: 8px; 
 	margin-left: -1px;
-	background-color: #ff8900; 
+	background-color: #830404 ; 
 }
 .skDsa{
-	width: 18vw; 
+	width: 26vw; 
 	height: 20px;
 	border-radius: 8px; 
 	margin-left: -1px;
-	background-color: #d8ec0e ; 
+	background-color: #830404 ; 
 }
 .skVe{
 	width: 17vw; 
 	height: 20px;
 	border-radius: 8px; 
 	margin-left: -1px;
-	background-color: #72ff00; 
+	background-color: #ffef00 
 }
 .skCaed{
 	width: 26vw; 
 	height: 20px;
 	border-radius: 8px; 
 	margin-left: -1px;
-	background-color: #ff2b02; 
+	background-color: #830404; 
 }
+
 /* CSS FOR PROJECT.HTML*/
 .mainContent2{
 		  margin: 4vh 4vw;
-    height: 81vh;
+    height: 160vh;
     display: flex;
     align-content: space-around;
     justify-content: space-between;
     align-items: flex-start;
 }
-.blogContainer span{
+.blogContainer h1{
 	font-size: 34px; 
 	font-weight: bold; 
-	width: 100vw;
+	margin-bottom: 5vh; 
+	width: 80vw;
 	color: black; 
-	display: flex;
+	display: flex; 
 	justify-content: center; 
 }
-
+.blogItems div{
+	font-weight: bolder; 
+}
+.blogItems p{
+	font-size: 13px;  
+}
+.blogItems hr{
+	margin: 10px; 
+}
+.blogItems p span{
+	color: darkred; 
+	font-size: 13px; 
+}
 @media screen and (max-width: 480px) {
   .infoContainer{
   	flex-wrap: wrap;
@@ -454,6 +510,7 @@ text-align: center;
  .outerBox{
  	height: 180vh;
  }
+ 
  .SkillContainer{
  	  display: flex;
     align-items: center;
@@ -489,6 +546,7 @@ text-align: center;
  .skDsa{
  	width: 50vw;
  }
+
 }
 @media screen and (max-width: 600px) {
 .contactInfo{
@@ -505,5 +563,9 @@ text-align: center;
 	align-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.mainContent2{
+	height: 180vh;  
 }
 }
